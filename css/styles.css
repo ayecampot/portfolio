@@ -4388,6 +4388,14 @@ input[type=button].btn-block {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
 }
 
+.footer {
+  background-image: url("../assets/img/poster.jpg");
+}
+.footerTexto{
+  color:white;
+}
+
+
 .card-footer {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
