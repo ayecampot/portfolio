@@ -10520,3 +10520,41 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 
 
+  .name {
+    color: white;
+    font-family: "Nixie One", sans-serif;
+    font-size: 15vh;
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px hotpink, 0 0 30px hotpink, 0 0 40px hotpink, 0 0 70px hotpink, 0 0 80px hotpink, 0 0 100px hotpink, 0 0 150px hotpink;
+    }
+
+    @media (max-width: 768px) {
+      .name {
+        font-size: 10vh;
+      }
+    }
+    
+  .letter-o {
+    animation: flicker 2s infinite;
+  }
+  .letter-s {
+    animation: flicker 5s infinite;
+  }
+  .letter-u {
+    animation: flicker 10s infinite;
+  }
+  @keyframes flicker {
+    0%, 25%, 27%, 30%, 71%, 73%, 75%, 77%, 100% {
+      opacity: 1; 
+      text-shadow: 0 0 10px #fff, 0 0 20px hotpink, 0 0 30px hotpink, 0 0 40px hotpink, 0 0 70px hotpink, 0 0 80px hotpink, 0 0 100px hotpink, 0 0 150px hotpink;
+    }
+    26%, 28%, 72%, 74%, 76% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #ff69b480, 0 0 30px #ff69b480, 0 0 40px #ff69b480, 0 0 70px #ff69b480, 0 0 80px #ff69b480, 0 0 100px hotpink, 0 0 150px hotpink;        
+    }
+  }
+
+
+
+
+  
+
