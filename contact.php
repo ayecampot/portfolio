@@ -29,16 +29,16 @@ if($_POST) {
     }
      
     if($concerned_department == "billing") {
-        $recipient = "billing@domain.com";
+        $recipient = "ayecampot@gmail.com";
     }
     else if($concerned_department == "marketing") {
-        $recipient = "marketing@domain.com";
+        $recipient = "ayecampot@gmail.com";
     }
     else if($concerned_department == "technical support") {
-        $recipient = "tech.support@domain.com";
+        $recipient = "ayecampot@gmail.com";
     }
     else {
-        $recipient = "contact@domain.com";
+        $recipient = "ayecampot@gmail.com";
     }
      
     $headers  = 'MIME-Version: 1.0' . "\r\n"
